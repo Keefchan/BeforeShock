@@ -1,0 +1,568 @@
+*{
+  box-sizing: border-box;
+}
+table{
+    margin: 5px;
+}
+nav{
+background-color: black;
+color: white;
+text-align: center;
+vertical-align: middle;
+padding: 1px;
+margin: 0%;
+}
+.dsp{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  vertical-align: top;
+}
+.dskp{
+    color: white;
+    font-family:Font;
+    font-size: larger;
+    border-color:rgb(95, 95, 95);
+    box-shadow: white;
+    margin: auto;
+    width: 100%;
+    display: block;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+a{
+    color: white;
+    font-family: Font;
+    font-size: larger;
+    
+}
+.current{
+  color: red;
+  font-size: larger;
+  font-family: Font;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.current{
+    color: rgb(233, 53, 53);
+}
+
+
+h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-weight: bolder;
+    
+}
+.feature{
+    font-size: larger;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+.imgdspk{
+    text-align: middle;
+}
+td {
+    border: none;
+}
+.dskb{
+    background-color: red;
+}
+a.select {
+   background-color: rgb(255, 0, 0);
+   border:  rgb(167, 67, 67) 0px solid;
+   text-decoration: none;
+   padding: 5px;
+   border-radius: 5px;
+   border-color: rgba(255, 0, 0, 0);
+   margin: 10px;
+   box-shadow: 5px 10px 20px rgb(104, 15, 15) inset;
+   margin:10px;
+   font-size: large;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Font;
+   
+  }
+  a.select:hover{
+    background-color: rgb(0, 0, 0);
+  }
+  a.selects {
+    padding: 10px;
+    text-decoration: none;
+    background-color: #ffffff00;
+    color: #f2f2f2;
+    border: solid white;
+    border-radius: 12px;
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 155px;
+    font-weight: bolder;
+    font-size: x-large;
+    
+
+  }
+  a.selects:hover{
+    background-color: rgba(255, 0, 0, 0.473);
+
+  }
+  .location{
+    width: 100%;
+    height: auto;
+    margin-bottom: 0%
+  }
+  .imageb{
+    height: 50;
+    width: 50;
+  }
+    * {box-sizing:border-box}
+
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1980px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  .epfs{
+    font-size: x-large;
+    font-weight: bolder;
+    color: rgb(255, 254, 253);
+    font-family: Font;
+    text-align: left;
+
+  }
+  .acc{
+    font-size:20px;
+    color:white;
+    background-color:#595959;
+    text-align: center;
+    margin: 15px;
+    font-size: large;
+    font-weight:bold;
+    clear: right;
+    width: 100%; 
+    height: auto;
+    max-width: 1980px;
+  }
+  .price{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    
+    border: 1px solid grey;
+  }
+  .Thank{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    margin-bottom: 20px;
+    background-color: #000000;
+    border-radius: 20px;
+
+
+  }
+  .hif{
+    font-size:xx-small;
+    color: #13161b00;
+  }
+
+.container{
+ padding: 2px 16px
+}
+
+.sizingfortext{
+  margin:0%;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 150%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.para{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-size: 30px;
+    font-weight:bolder;
+    margin: 10%
+  }
+
+.hashspace{
+    text-align:center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    
+}
+.hash{
+    background-color: red;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+footer{
+    background-color: #13161B;
+    text-decoration: none;
+    
+}
+.footer-list{
+    list-style-type: none;
+    text-decoration: none;
+}
+.product{
+    margin-left:0%;
+    color:white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footerhyper{
+    text-decoration: none;
+}
+.footer{
+    font-size: smaller;
+    font-style: italic;
+    color: #717171;    
+}
+th{
+    font-size: larger;
+    color: white;
+}
+.homefont{
+    color: #910000; 
+    font-size: larger;
+    font-style: italic;
+}
+.logosize{
+  border-radius: 5px;
+    height:40px;
+    width:40px;
+    border: 3px solid #bbda5500;
+}
+.fonting{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-decoration: none;
+  font-size: larger;
+}
+
+.gwsd{
+   font-weight: bold;
+   color: white;
+   padding: 1px 0;
+
+}
+
+.columns {
+  float: left;
+  width: 25%;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* The grid: Three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+}
+
+.containerTab {
+  padding: 20px;
+  color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+.button {
+  transition-duration: 0.4s;
+  background-color: #ffffff00;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 8px 16px;
+  border: 1px rgba(0, 0, 0, 0);
+  font-size: large;
+
+}
+
+
+.button:hover {
+  background-color: #ff0000;
+  color: white;
+  border-radius: 10px;
+}
+.buttons{
+  transition-duration: 0.4s;
+  background-color: #ffffff00;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 8px 16px;
+  border: 1px rgba(0, 0, 0, 0);
+  font-size: large;
+  color: red;
+}
+.buttons:hover{
+  background-color: #ffffff6e;
+  border-radius: 10px;
+}
+.header{
+  font-weight:bold;
+  font-size: 60px;
+  margin-left:5%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.redtext{
+  color: red
+}
+.info{
+  color: rgb(255, 0, 0);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: x-large;
+
+}
+b{
+  offset: none;
+}
+.sss{
+  width: 100%;
+  max-width: 330px;
+  height: auto;
+}
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+.des{
+  background-color: #595959; 
+  font-size: smaller; 
+  text-align: left;
+  color: white;
+}
+
+.desc{
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.rowtext{
+  color: white; 
+  font-size: 30px;
+  font-weight:bolder;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* tooltip */
+.tooltip {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 	'Helvetica Neue', sans-serif;
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  font-size: 30px;
+  font-weight:bolder;
+  color: white;
+}
+
+.tooltip .tooltiptext {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',   'Helvetica Neue', sans-serif;
+  visibility: hidden;
+  width: 70%;
+  background-color: grey;
+  color: white;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+
+
+/*Flip Card CSS*/
+.flip-card {
+  background-color: black;
+  width: 500px;
+  height: 500px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: black;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: black;
+  color: white;
+  transform: rotateY(180deg);
+  text-align: left;
+}
+@font-face {
+  font-family: Font;
+  src: url(font/BAHNSCHRIFT.TTF);
+}
+.JAC{
+font-family: Font;
+font-size: xx-large;
+color: white;
+clear: left;
+margin-top: 20px;
+font-weight: bold;
+}
+body{
+  font-family: Font;
+}
+.JAC1{
+  font-family: Font;
+  font-size: xx-large;
+  color: white;
+  clear: left;
+  margin-top: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+  }
+  @media not all and (min-width: 780px) {
+    #centeredmenu { max-width: 220px; }
+  }
+  #centeredmenu {
+    clear:both;
+    min-width: 220px;
+    margin-left: 20px;
+ }
+ 

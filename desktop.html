@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Before Shock | Desktops </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="Logo small.ico" type="image/x-icon">
+        <link rel="stylesheet" href="Style.css">
+        <style>
+            .sss{
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+            }
+            body{
+                width: 100%;
+                margin: 0%;
+                font-family: Font;
+            }
+            html{
+                width: 100%;
+                max-width: 100%;
+                margin: 0%;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="width: 100%; max-width: 100%;">
+            <nav style="margin: 0%; width: 100%;">
+                <table style="width: 99%; margin: 0%;" cellpadding="15px">
+                    <tr> 
+                        <td><a href="Home.html"><img src="Logo.jpeg" class="sss"></a></td>
+                        
+                        <td><button type="button" class="button"><a style="text-decoration:none" href="Home.html">Home</a></button></td>
+                        
+                        <td><button type="button" class="button"><a style="text-decoration:none" href="Laptop.html">Laptops</a></button></td>
+                        
+                        <td><button type="button" class="buttons"><a class="current" style="text-decoration:none" href="desktop.html">Desktop</a></button>
+                        
+                        <td><button type="button" class="button"><a style="text-decoration:none" href="Accessories.html">Accessories</a></button></td>
+                       
+                        <td><button type="button" class="button"><a style="text-decoration:none" href="Product.html">About Us</a></button></td>
+                        
+                        <td><button type="button" class="button"><a style="text-decoration:none" href="aboutus.html">Contact Us</a></button></td>
+                    </tr>
+                </table>
+        </nav>
+    </div>
+            <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="Banner/Banner1.png" style="width:100%">
+      <div class="text"></div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="Banner/Banner2.png" style="width:100%">
+      <div class="text"></div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="Banner/Banner3.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+    
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+<script>
+    var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  
+}
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 7000); // Change image every 7 seconds
+}
+</script>
+<div style="margin: auto; width: 100%;">
+    <h1 class="JAC">New Arrival </h1>
+            <div class="dskp">
+                <table align="left" border="1" cellpadding="15" style=" min-width: 350px;border:1px solid rgb(87, 87, 87);border-collapse:collapse; float: left; width: 100%;max-width: 600px; margin-left: 25px; margin: 15px;" id="#centeredmenu" align="center" >
+                <tr style="color: white;">
+                    <td align="center" style="background-color: rgb(59, 59, 59); border-bottom: none;">
+                    <p style="font-size: larger;">DOG SHARK<p>
+                    <p style="font-size: smaller; font-weight: unset;">Compact Office machine</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="photos for desktop/Vision Mini-min.png"></td>
+                </tr>
+                <tr>
+                    <td align="left">
+                        <p style="color: white;">From SGD <b style="color: red; font-weight: bold; font-size: larger; ">769</b> <s style="font-size: smaller;">999</s><b style="font-weight: unset; font-size: small; font-style: italic;"> 23% off</b> </p>
+                        <a href="feature page for desktop/dogshark.html" class="select">Select</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="background-color: #595959; font-size: smaller; text-align: left;color: white;">
+                        <p>
+                            AMD Ryzen 5 5600 or Intel Core I5 11600
+                            </br>up to 32 GB Ram
+                            </br>up to Gtx 1650 
+                            </br>500 GB NVME SSD
+                            </br>WIFI 6 + Bluetooth 5.0 enabled
+                            </br>Office Work | Basic Photo and Video Editing
+                        </p>
+                </tr>
+                <tr>
+                    <td style="background-color: #595959; font-size: smaller;">
+                        <p class="epfs">Expected Performance for Selected PC :</p>
+                        <img src="game covers/Untitled presentation.jpg" width="455" height="256 ">
+                    </td>
+                </tr>
+                </table>
+                <table align="center" border="1" cellpadding="15" style="min-width:350px ;border:1px solid rgb(87, 87, 87);border-collapse:collapse; float: left;width: 100%; max-width: 600px; margin: 15px;" align="center">
+                    <tr style="color: white;">
+                        <td align="center" style="background-color: rgb(59, 59, 59); border-bottom: none;">
+                            <p style="font-size: larger;">Great White Shark</p>
+                            <p style="font-size: smaller; font-weight: unset;">Advance Performance Series partnership with NZXT</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <Td align="center"><img src="photos for desktop/HypergateElite.png"></Td>
+                    </tr>
+                    <tr>
+                        <td align="left">
+                        <p style="color: white;">From SGD <b style="color: red; font-weight: bold; font-size: larger; ">1409</b> <s style="font-size: smaller;">2818</s><b style="font-weight: unset; font-size: small; font-style: italic;"> 50% off</b> </p>
+                        <a href="feature page for desktop/dogshark.html" class="select">Select</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #595959; font-size: smaller;text-align: left;color: white;">
+                            <p>
+                                AMD Ryzen 9 5950X or Intel Core I9 11900K
+                                </br>up to 64 GB High Speed Ram
+                                </br>up to RTX 3090 
+                                </br>2 TB M.2 NVME SSD
+                                </br>WIFI 6 + Bluetooth 5.0 enabled
+                                </br>AAA Gaming | Heavy video and Photo editing  
+                            </p>
+                    </tr>
+                    <tr style="background-color: #595959;">
+                        <td><p class="epfs">Expected Performance for Selected PC :</p>
+                            <img src="game covers/Untitled presentation (1).jpg " width="455" height="256"></td>
+                    </tr>
+                </table>
+                <table align="right" border="1" cellpadding="15" style="min-width: 350px;border:1px solid rgb(87, 87, 87);border-collapse:collapse; float: left ; width: 100%; max-width: 600px; margin: 15px;" align="center">
+                <tr style="color: white;">
+                    <td align="center" style="background-color: rgb(59, 59, 59); border-bottom: none;">
+                        <p style="font-size: larger;">Whale Shark</p>
+                        <p style="font-size: smaller; font-weight: unset;">Ultimate Workstation PC</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <img src="photos for desktop/FocusX_Selection.png">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left">
+                    <p style="color: white;">From SGD <b style="color: red; font-weight: bold; font-size: larger; ">4566</b> <s style="font-size: smaller;">4970</s><b style="font-weight: unset; font-size: small; font-style: italic;"> 8% off</b> </p>
+                    <a href="feature page for desktop/dogshark.html" class="select">Select</a>
+                    </td>
+                </tr>
+                <tr >
+                    <td style="background-color: #595959; font-size: smaller;text-align: left; color: white;">      
+                        <p>
+                            AMD ThreadRipper 3960X (24 Cores | 48 Threads, up to 4.5 Ghz)
+                            </br>up to 128 GB of Ram
+                            </br>Up to AMD RX 6800-XT | up to 2 AMD RX 6800-XT
+                            </br>2 TB M.2 NVME SSD + 10 TB seagate HDD
+                            </br>WIFI 6 + Bluetooth 5.0 enabled
+                            </br>Deep Learning | Simulation | Machine Learning
+                        </p>
+                </tr>
+                <tr style="background-color: #595959;">
+                    <td><p class="epfs">Expected Performance for Selected PC :</p>
+                        <img src="game covers/Untitled presentation (4).jpg " width="455" height="256"></td>
+                </tr>
+                </table>
+            </div>
+        </div>
+        </br>
+            <div style="align-content: center; ; width: 100%;">
+            <table class="center" align="right" border="0" cellpadding="5px"style="border:0px solid rgb(87, 87, 87);border-collapse:collapse; margin: 10px ; width:100%; max-width:1920px;">
+                <caption><h1>Small Form-Factor PC</h1></caption>
+                <tr>
+                    <td align="center" style=" border-bottom: none;">
+                        <img src="Naming/Untitled-1.png" style="max-width:300px; width: 100%;height: auto; ">
+                        <br/>
+                        <img src="photos for desktop/2_Hypergate Mini.png" style="width: 100%; height: auto;">
+                    </td>
+                    <td style="vertical-align: top;"></td>
+                        <td style="background-color: rgb(59, 59, 59);text-align: left; text-align: top;">
+                            <img src="Naming/Untitled-2.png" style="max-width:300px; width: 100%; height: auto;">
+                            <br/>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="naming/Untitled-9.png" style="max-height: 40px; max-width: 100px; width: auto ; height: auto;"></p>
+                            <br/>
+                            <p><a href="feature page for desktop/dogshark.html" class="select">Select</a></p>
+                    </td>
+                    <td align="center" style=" border-bottom: none;">
+                        <img src="Naming/blue.png" style="max-width:300px; width: 100%; height: auto;">
+                        <br/>
+                        <img src="photos for desktop/2_Templar.png" style="width: 100%; height: auto;">
+                    </td> 
+                    <td style="vertical-align: top;">
+                        <td style="background-color: rgb(59, 59, 59);text-align: left; text-align: top;">
+                            <img src="Naming/Untitled-2.png" style="max-width:300px; width: 100%; height:auto">
+                            <br/>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="naming/1989.png" style="max-height: 40px; max-width: 100px; width: auto ; height: auto;"></p>
+                            <br/>
+                            <p><a href="feature page for desktop/dogshark.html" class="select">Select</a></p>
+                    </td>  
+                </tr>
+                <tr>
+                    <td>
+                        <img src="Naming/Untitled-3.png" style="max-width:300px; width: 100%;">
+                        <br/>
+                        <img src="photos for desktop/Mesh.png" style=" width: 100% ;height: auto">
+                    </td>
+                        <td style="vertical-align: top;">
+                            <td style="background-color: rgb(59, 59, 59);text-align: left; text-align: top;">
+                                <img src="Naming/Untitled-5.png" style="max-width:300px; width: 100%; height: auto;">
+                                <br/>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="naming/Untitled-8.png" style="max-height: 40px; max-width: 100px; width: auto ; height: auto;"></p>
+                                <br/>
+                                <p><a href="feature page for desktop/dogshark.html" class="select">Select</a></p>
+
+                    </td>
+                    <td>
+                        <img src="Naming/BASKINGDHARK.png" style="max-width:300px; width: 100%; height: auto;">
+                        <br/>
+                        <img src="photos for desktop/UltracoreMini.png" style="width: 100%; height: auto;">
+                    </td>
+                        <td style="vertical-align: top;">
+                            <td style="background-color: rgb(59, 59, 59);text-align: left; text-align: top;">
+                                <img src="Naming/Untitled-5.png" style="max-width:300px; width: 100%; height: auto">
+                                <br/>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="naming/1789.png" style="max-height: 40px; max-width: 100px; width: auto ; height: auto;"></p>
+                                <br/>
+                                <p><a href="feature page for desktop/dogshark.html" class="select">Select</a></p>
+
+                    </td>
+                </tr>
+            </table>
+            
+        <br/>
+    </div>
+        <img src="banner/Jeremy.png" width="100%" height="auto">
+       <!--Footer-->
+ <!--footer part-->
+ <footer style="clear: left;">
+    <div class="product" align="center">
+    <table class="footer.list" cellspacing="5" cellpadding="15">
+        <tr style="text-align: left;">
+            <th >Products</th>
+            <th>Company</th>
+            <th>Need Help?</th>
+            <th></th>
+            <th>Contact Us</th>
+        </tr>
+        <tr>
+            <td class="fuwh"><a class="footerhyper" href="Laptop.html">Laptops</a></td>
+            <td class="fuwh"><a class="footerhyper" href="Product.html">About</a></td>
+            <td><a class="footerhyper" href="aboutus.html">Support</a></td>
+            <td></td>
+            <td class="fonting">Contact us : +65 9126 2789</td>
+        </tr>
+        <tr>
+            <td><a class="footerhyper" href="desktop.html">Desktops</a></td>
+            <td><a class="footerhyper" href="aboutus.html">Contact</a></td>
+            <td><a class="footerhyper" href="aboutus.html">Warranty Info</a></td>
+            <td></td>
+            <td class="fonting">Address : 996 Bendmeer Rd #03-06 S339944</td>
+        </tr>
+        <tr>
+            <td><a class="footerhyper" href="Accessories.html">Accessories</a></td>
+            <td></td>
+            <td><a class="footerhyper" href="aboutus.html">FAQ</a></td>
+            <td></td>
+            <th align="left">Register your email for exclusive news, offers and giveaways! 
+                <div>
+                    <input type="text" ></input><input type="submit"></input>
+                </div></th>
+        </tr>  
+    </table>
+
+    
+
+<div >
+    <a href="https://www.facebook.com/"><img src="icons/fblogo.png" height="40px" placeholder="facebook"></img></a>
+    <a href="https://www.instagram.com/"><img src="icons/iglogo.png" height="40px"></img></a>
+    <a href="https://twitter.com/?lang=en-sg"><img src="icons/twitterlogo.png"  height="40px"></img></a>
+</div>
+</div>
+<div>
+<p class="footer" style="margin-left: auto; clear: left; float: left;">
+    Beforeshock &#169;2017 
+</p>
+
+</div>
+
+</footer>
+    </body>
+</html>

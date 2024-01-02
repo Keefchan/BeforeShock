@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Before Shock | Laptops </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="Logo small.ico" type="image/x-icon">
+        <link rel="stylesheet" href="Style.css">
+        <style>
+            .sss{
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+            }
+            body{
+                width: 100%;
+                margin: 0%;
+            }
+            html{
+                width: 100%;
+                max-width: 100%;
+                margin: 0%;
+            }
+
+        </style>
+        
+    </head>
+    <body>
+        <div style="width: 100%; max-width: 100%;">
+            <nav style="margin: 0%; width: 100%;">
+                <table style="width: 99%; margin: 0%;" cellpadding="15px">
+                    <tr> 
+                        <td><a href="Home.html"><img src="Logo.jpeg" class="sss"></a></td>
+                        
+                        <td><button type="button" class="button"><a style="text-decoration:none" href="Home.html" >Home</a></button></td>
+                        
+                        <td><button type="button" class="buttons"><a class="current" style="text-decoration:none" href="Laptop.html">Laptops</a></button></td>
+                        
+                        <td><button type="button" class="button"><a style="text-decoration:none" href="desktop.html">Desktop</a></button>
+                        
+                        <td><button type="button" class="button"><a style="text-decoration:none" href="Accessories.html">Accessories</a></button></td>
+                       
+                        <td><button type="button" class="button"><a style="text-decoration:none" href="Product.html">About Us</a></button></td>
+                        
+                        <td><button type="button" class="button"><a style="text-decoration:none" href="aboutus.html">Contact Us</a></button></td>
+                    </tr>
+                </table>
+            </nav>
+        </div>
+        <h1 align="center">Best Selling Laptop</h1>
+
+        <!--Banner-->
+        <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="banner for latop/laptop.png" style="width:100%">
+            <div class="text"></div>
+        </div>
+          
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="banner for latop/Untitled-1.png" style="width:100%">
+            <div class="text"></div>
+        </div>
+          
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="banner for latop/Lunar 14 Pro KV.png" style="width:100%">
+            <div class="text"></div>
+        </div>
+           
+        <br>
+          
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+
+        <script>
+            var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        // Next/previous controls
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        // Thumbnail image controls
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+          
+        }
+        var slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}
+          slides[slideIndex-1].style.display = "block";
+          setTimeout(showSlides, 7000); // Change image every 7 seconds
+        }
+        </script>
+        </br>
+
+            <h1 style="color:white;">
+            Hover over the laptop picture for more specfic specification
+            </h1>
+                <table align="center" border="1" cellpadding="15" style="border:1px solid rgb(216, 19, 19);border-collapse:collapse; float: left; width: 100%;max-width: 600px; margin-left: 25px; margin: 15px;" align="center">
+                    <tr style="color: white;">
+                        <td align="center" style="background-color: rgb(77, 77, 77); border-bottom: none;">
+                            <p style="font-size: larger;"><h2>Founder Edition Laptop</h2> <br/>(Rio)</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <Td align="center">
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <img src="banner for latop/00-1024x577.png" height="500" width="500" style="width: 100%;">
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <p style="font-size: larger; color: white;" >
+                                            <p style="text-align: center;">-Specs-</p>
+                                            -2 Year Warranty<br/>
+                                            -Ryzen 9 5900H (8 Cores 16 Threads)<br/>
+                                            -NVIDIA GeForce RTX 3080 8GB GDDR6<br/>
+                                            -16 Inch (360mm x 240mm x 18.0mm)<br/>
+                                            -165hz QHD Anti-glare Display (2560 x 1600)<br/>
+                                            -32GB RAM [16GB x 2] DDR4 3600MHZ (Dual Channel)<br/>
+                                            -RGB Mechanical keyboard with 200 Color Options(Per key)<br/>
+                                            -720 HD Webcam<br/>
+                                            -2 TB M.2 SSD (R: 3500 | W: 3300)<br/>
+                                            -Windows 10 Home 64bit<br/>
+                                            -INTEL AX201 + Bluetooth (Wi-Fi 6)<br/>
+                                            -2.1kg
+                                            <p style="text-align: center;">-Ports-</p>
+                                            -1 x HDMI 2.1 output (Up to 4K 120Hz)<br/>
+                                            -1 x Thunderbolt™ 3 (USB-C)<br/>
+                                            -3 x USB 3.2 Gen 2 Type-A<br/>
+                                            -1 x USB 3.2 Gen 2 Type-C<br/>
+                                            -1 x Gigabit Ethernet<br/>
+                                            -1x 3.5mm Combo Audio Jack
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #595959; font-size: smaller;text-align: center" class="sizingfortext">
+                            <h1 style="font-weight: bold;">
+                            Laptop Specs
+                            </h1>
+                            <p style="font-size: larger; color: white;" >
+                                RTX 3080<br/>
+                                Windows 10 Home<br/>
+                                Ryzen 9 5900H<br/>
+                                16 Inch<br/>
+                                2 TB SSD<br/>
+                                32GB RAM<br/>
+                                Battery life: 4 Hours Idle
+                            </p>
+                            <p style="color: white;">SGD <b style="color: red; font-weight: bold; font-size: larger; ">3200</b> </p>
+                                <a href="check out laptop/Founder Edition.html" class="select">Select</a>
+                            <br></br>
+                        </td>
+                    </tr>
+                </table>
+
+                <table align="center" border="1" cellpadding="15" style="border:1px solid rgb(216, 19, 19);border-collapse:collapse; float: left; width: 100%;max-width: 600px; margin-left: 25px; margin: 15px;" align="center" ">
+                    <tr style="color: white;">
+                        <td align="center" style="background-color: rgb(77, 77, 77); border-bottom: none;">
+                            <p style="font-size: larger;"><h2>Zephyrus</h2> <br/>(Ultraportable Gaming)</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="banner for latop/ab_asus_300320.jpg.png"  height="500" width="500" style="width: 100%;">
+                                </div>
+                                <div class="flip-card-back">
+                                    <p style="font-size: larger; color: white;">
+                                        <p style="text-align: center;">-Specs-</p>
+                                        -2 Year Warranty<br/>
+                                        -Ryzen 9 5900H (8 Cores 16 Threads)<br/>
+                                        -NVIDIA GeForce RTX 3060 6GB GDDR6<br/>
+                                        -14 Inch (324mm x 220mm x 19.9mm)<br/>
+                                        -144hz FHD Anti-glare Display (1920 x 1080)<br/>
+                                        -32GB RAM [16GB x 2] DDR4 3600MHZ (Dual Channel)<br/>
+                                        -RGB tactile hybrid silent keyboard with 200 Color Options(4 Zone)<br/>
+                                        -1 TB M.2 SSD (R: 3500 | W:3300)<br/>
+                                        -Windows 10 Home 64bit<br/>
+                                        -INTEL AX201 + Bluetooth (Wi-Fi 6)<br/>
+                                        -1.7kg
+                                        <p style="text-align: center;">-Ports-</p>
+                                        -1x HDMI 2.0b<br/>
+                                        -1x USB 3.2 Gen 2 Type-C<br/>
+                                        -2x USB 3.2 Gen 1 Type-A<br/>
+                                        -1x USB 3.2 Gen 2 Type-C support DisplayPort™ / power delivery / G-SYNC<br/>
+                                        -1x 3.5mm Combo Audio Jack
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #595959; font-size: smaller;text-align: center" class="sizingfortext">
+                           <h1 style="font-weight: bold;">
+                            Laptop Specs
+                            </h1>
+                            <p style="font-size: larger; color: white;">
+                                RTX 3060<br/>
+                                Windows 10 Home<br/>
+                                Ryzen 9 5900H<br/>
+                                14 Inch<br/>
+                                1 TB SSD<br/>
+                                32GB RAM<br/>
+                                Battery life: 10 hours Idle
+                            </p>
+                            <p style="color: white;">SGD <b style="color: red; font-weight: bold; font-size: larger; ">2400</b> </p>
+                                <a href="check out laptop/Zephyrus.html" class="select">Select</a>
+                            <br></br> 
+                        </td>
+                    </tr>
+                </table>
+
+                <table align="center" border="1" cellpadding="15" style="border:1px solid rgb(216, 19, 19);border-collapse:collapse; float: left; width: 100%;max-width: 600px; margin-left: 25px; margin: 15px;" align="center">
+                    <tr style="color: white;">
+                        <td align="center" style="background-color: rgb(77, 77, 77); border-bottom: none;">
+                            <p style="font-size: larger;"><h2>Demon Shark</h2> <br/>(Budget Powerhouse)</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <Td align="center">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="banner for latop/4_Apex 15X.png" height="500" width="500" style="width: 100%;">
+                                </div>
+                                <div class="flip-card-back">
+                                    <p style="font-size: larger; color: white;" >
+                                        <p style="text-align: center;">-Specs-</p>
+                                        -2 Year Warranty<br/>
+                                        -Ryzen 7 5800HS (8 Cores 16 Threads)<br/>
+                                        -NVIDIA GeForce RTX 3050Ti<br/>
+                                        -15.6 Inch (361mm x 258mm x 27.9mm)<br/>
+                                        -165hz QHD Premium Wide Color Display (2560 X 1440)<br/>
+                                        -16GB RAM [8GB x 2] DDR4 3200MHZ (Dual Channel)<br/>
+                                        -RGB Mechanical keyboard with 200 Color Options(Single Zone)<br/>
+                                        -720 HD Webcam<br/>
+                                        -1 TB M.2 SSD (R: 3300 | W:3000)<br/>
+                                        -Windows 10 Home 64bit<br/>
+                                        -INTEL AX201 + Bluetooth (Wi-Fi 6)<br/>
+                                        -2.4kg
+                                        <p style="text-align: center;">-Ports-</p>
+                                        -1 HDMI x 2.1<br/>
+                                        -1 USB Type-C Port with DP Connectivity<br/>
+                                        -1x USB 3.1 Gen 2 Type-C<br/>
+                                        -2x USB 3.1 Gen 1 Type-A<br/>
+                                        -SD Card Reader<br/>
+                                        -10/100/1000/2500 Ethernet RJ-45<br/>
+                                        -1x 3.5mm Combo Audio Jack
+                                    </p>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #595959; font-size: smaller;text-align: center" class="sizingfortext">
+                            <h1 style="font-weight: bold;">
+                            Laptop Specs
+                            </h1>
+                            <p style="font-size: larger; color: white;" >
+                                RTX 3050Ti<br/>
+                                Windows 10 Home<br/>
+                                Ryzen 7 5800HS<br/>
+                                15,6 Inch<br/>
+                                1 TB SSD<br/>
+                                16GB RAM<br/>
+                                Battery life: 3 Hours Idle
+                            </p>
+                            <p style="color: white;">SGD <b style="color: red; font-weight: bold; font-size: larger; ">2100</b> </p>
+                                <a href="check out laptop/Demon Shark.html" class="select">Select</a>
+                            <br></br>
+                        </td>
+                    </tr>
+                </table>
+               
+                <table align="center" border="1" cellpadding="15" style="border:1px solid rgb(216, 19, 19);border-collapse:collapse; float: left; width: 100%;max-width: 600px; margin-left: 25px; margin: 15px;" align="center">
+                    <tr style="color: white;">
+                        <td align="center" style="background-color: rgb(77, 77, 77); border-bottom: none;">
+                            <p style="font-size: larger;"><h2>Lunar 14</h2> <br/> (Ultraportable for work)</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <Td align="center">
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <img src="banner for latop/Laptop/aftershock-lunar-14.png" height="500" width="500" style="width: 100%;">
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <p style="font-size: larger; color: white;">
+                                            <p style="text-align: center;">-Specs-</p>
+                                            -2 Year Warranty<br/>
+                                            -I7-11370H (4 Cores 8 Threads)<br/>
+                                            -Iris Xe Graphics<br/>
+                                            -14 Inch (322mm x 216.8mm x 16.5mm)<br/>
+                                            -144 HzFHD IPS Wide Color Gamut Display (1920x1080)<br/>
+                                            -16GB RAM [8GB x 2] DDR4 3200MHZ (Dual Channel)<br/>
+                                            -RGB tactile hybrid silent keyboard with 200 Color Options(Single Zone)<br/>
+                                            -720 HD Webcam<br/>
+                                            -1 TB M.2 SSD (R: 3500 | W:3300)<br/>
+                                            -Windows 10 Home 64bit<br/>
+                                            -INTEL AX201 + Bluetooth (Wi-Fi 6)<br/>                                                -0.99kg
+                                            <p style="text-align: center;">-Ports-</p>
+                                            -1 x HDMI 2.1 output (Up to 4K 120Hz)<br/>
+                                            -1 x ThunderboltTM 4 combo port with Power Delivery DC in (Type C)<br/>
+                                            -1 x USB 3.2 Gen 1 Type-A<br/>
+                                            -1 x USB 3.2 Gen 2 Type-A<br/>
+                                            -1x 3.5mm Combo Audio Jack
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </Td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #595959; font-size: smaller;text-align:center;" class="sizingfortext">
+                        <h1 style="font-weight: bold;">
+                        Laptop Specs
+                        </h1>
+                        <p style="font-size: larger; color: white;">
+                            Iris Xe Graphics<br/>
+                            Windows 10 Home<br/>
+                            I7-11370H<br/>
+                            14 Inch<br/>
+                            1 TB SSD<br/>
+                            16GB RAM<br/>
+                            Battery life: 10 Hours+ Idle
+                        </p>
+                        <p style="color: white;">SGD <b style="color: red; font-weight: bold; font-size: larger; ">1700</b> </p>
+                            <a href="check out laptop/Lunar 14.html" class="select">Select</a>
+                            <br></br>
+                        </td>
+                    </tr>
+                </table>
+
+                <table align="center" border="1" cellpadding="15" style="border:1px solid rgb(216, 19, 19);border-collapse:collapse; float: left; width: 100%;max-width: 600px; margin-left: 25px; margin: 15px;" align="center">
+                    <tr style="color: white;">
+                        <td align="center" style="background-color: rgb(77, 77, 77); border-bottom: none;">
+                            <p style="font-size: larger;"><h2>Hammerhead</h2> <br/> (Built to power)</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <Td align="center">
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <img src="banner for latop/Laptop/Lunar 14 banner.png" height="500" width="500" style="width: 100%;">
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <p style="font-size: larger; color: white;">
+                                            <p style="text-align: center;">-Specs-</p>
+                                            -2 Year Warranty<br/>
+                                            -I7-11800H (8 Cores 16 Threads)<br/>
+                                            -NVIDIA GeForce RTX 3070 8GB GDDR6<br/>
+                                            -16 Inch (355mm x 243mm x 19.9mm)<br/>
+                                            -165hz QHD Anti-glare Display (2560 x 1600)<br/>
+                                            -16GB RAM [8GB x 2] DDR4 3200MHZ (Dual Channel)<br/>
+                                            -RGB tactile hybrid silent keyboard with 200 Color Options(Per Key)<br/>
+                                            -720 HD Webcam<br/>
+                                            -1 TB M.2 SSD (R: 3500 | W:3300)<br/>
+                                            -Windows 10 Home 64bit<br/>
+                                            -INTEL AX201 + Bluetooth (Wi-Fi 6)<br/>
+                                            -2.0kg
+                                            <p style="text-align: center;">-Ports-</p>
+                                            -1x HDMI 2.0b output (Up to 4K 120Hz)<br/>
+                                            -3x USB 3.2 Gen 1 Type-A<br/>
+                                            -1x USB 3.1 Gen 1 Type-A(Always  on)<br/>
+                                            -1x USB 3.2 Gen 2 Type-C support DisplayPort™<br/>
+                                            -1x Gigabit Ethernet<br/>
+                                            -1x 3.5mm Combo Audio Jack 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #595959; font-size: smaller;text-align: center" class="sizingfortext">
+                            <h1 style="font-weight: bold;">
+                            Laptop Specs
+                            </h1>
+                            <p style="font-size: larger; color: white;">
+                                RTX 3070<br/>
+                                Windows 10 Home<br/>
+                                I7-11800H<br/>
+                                16 Inch<br/>
+                                1 TB SSD<br/>
+                                16GB RAM<br/>
+                                Battery life: 4 Hours Idle
+                            </p>
+                            <p style="color: white;">SGD<b style="color: red; font-weight: bold; font-size: larger; ">2700</b> </p>
+                                <a href="check out laptop/Hammerhead.html" class="select">Select</a>
+                            <br></br>
+                        </td>
+                    </tr>
+                </table>
+
+                <table align="center" border="1" cellpadding="15" style="border:1px solid rgb(216, 19, 19) ;border-collapse:collapse; float: left; width: 100%;max-width: 600px; margin-left: 25px; margin: 15px;" align="center">
+                    <tr style="color: white;">
+                        <td align="center" style="background-color: rgb(77, 77, 77); border-bottom: none;">
+                            <p style="font-size: larger;"><h2>Bull Shark</h2><br/>(Built for gaming)</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <img src="banner for latop/Laptop/Nitro 5.png" height="500" width="500" style="width: 100%;">
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <p style="font-size: larger; color: white;">
+                                            <p style="text-align: center; line-height: 1;">-Specs-</p>
+                                            -2 Year Warranty<br/>
+                                            -Ryzen 9 5900H (8 Cores 16 Threads)<br/>
+                                            -NVIDIA GeForce RTX 3080 8GB GDDR6<br/>
+                                            -17 Inch (391.4 x 260.8mm x 20mm)<br/>
+                                            -165hz QHD Anti-glare Display (2560 x 1440)<br/>
+                                            -24GB RAM [24GB x 1] DDR4 2133MHZ<br/>
+                                            -RGB Mechanical keyboard with 200 Color Options(Per key)<br/>
+                                            -1 TB M.2 SSD (R: 3500 | W:3300)<br/>
+                                            -Windows 10 Home 64bit<br/> 
+                                            -INTEL AX201 + Bluetooth (Wi-Fi 6)<br/>
+                                            -2.5kg
+                                            <p style="text-align: center;">-Ports-</p>
+                                            -1x HDMI 2.0b output (Up to 4K 120Hz)<br/>
+                                            -2x USB 3.2 Gen 1 Type-A<br/>
+                                            -1x USB 3.2 Gen 2 Type-A<br/>
+                                            -1x USB 3.2 Gen 2 Type-C<br/>
+                                            -1x 3.5mm Combo Audio Jack 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #595959; font-size: smaller;text-align: center" class="sizingfortext">
+                            <h1 style="font-weight: bold;">
+                            Laptop Specs
+                            </h1>
+                            <p style="font-size: larger; color: white;">
+                            RTX 3080<br/>
+                            Windows 10 Home<br/>
+                            Ryzen 9 5900H<br/>
+                            17 Inch<br/>
+                            1 TB SSD<br/>
+                            24GB RAM<br/>
+                            Battery life: 5 Hours Idle 
+                        </p>
+                        <p style="color: white;">SGD <b style="color: red; font-weight: bold; font-size: larger; ">3000</b> </p>
+                            <a href="check out laptop/Bull Shark.html" class="select">Select</a>
+                        <br></br>
+                        </td>
+                    </tr>
+                </table>
+    
+
+    
+        <!--Footer -->
+        <footer style="clear: left;">
+            <div class="product" align="center">
+            <table class="footer.list" cellspacing="5" cellpadding="15">
+                <tr style="text-align: left;">
+                    <th >Products</th>
+                    <th>Company</th>
+                    <th>Need Help?</th>
+                    <th></th>
+                    <th>Contact Us</th>
+                </tr>
+                <tr>
+                    <td><a class="footerhyper" href="Laptop.html">Laptops</a></td>
+                    <td><a class="footerhyper" href="Product.html">About</a></td>
+                    <td><a class="footerhyper" href="aboutus.html">Support</a></td>
+                    <td></td>
+                    <td class="fonting">Contact us : +65 9126 2789</td>
+                </tr>
+                <tr>
+                    <td><a class="footerhyper" href="desktop.html">Desktops</a></td>
+                    <td><a class="footerhyper" href="aboutus.html">Contact</a></td>
+                    <td><a class="footerhyper" href="aboutus.html">Warranty Info</a></td>
+                    <td></td>
+                    <td class="fonting">Address : 996 Bendmeer Rd #03-06 S339944</td>
+                </tr>
+                <tr>
+                    <td><a class="footerhyper" href="Accessories.html">Accessories</a></td>
+                    <td></td>
+                    <td><a class="footerhyper" href="aboutus.html">FAQ</a></td>
+                    <td></td>
+                    <th align="left">Register your email for exclusive news, offers and giveaways! 
+                        <div>
+                            <input type="text" ></input><input type="submit"></input>
+                        </div></th>
+                </tr> 
+            </table>
+        
+            <div >
+                <a href="https://www.facebook.com/"><img src="icons/fblogo.png" height="40px" placeholder="facebook"></img></a>
+                <a href="https://www.instagram.com/"><img src="icons/iglogo.png" height="40px"></img></a>
+                <a href="https://twitter.com/?lang=en-sg"><img src="icons/twitterlogo.png"  height="40px"></img></a>
+            </div>
+            </div>
+            <div>
+                <p class="footer" style="margin-left: auto;">
+                    Beforeshock &#169;2017 
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>

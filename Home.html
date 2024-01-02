@@ -1,0 +1,405 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Before Shock | Home </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" href="Logo small.ico" type="image/x-icon">
+      <link rel="stylesheet" href="style.css">
+      <style>
+        .fuwh:hover { 
+        text-decoration:underline ;
+        background-color:red ;
+}
+      .zoom {
+        padding: 50px;
+        background-color: none;
+        transition: transform .2s; /* Animation */
+        width: 100%;
+        height: auto;
+        margin: 0 auto
+              }
+      .zoom:hover {
+        transform: scale(1.5); /* (450% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+      }
+      .yyy{
+        padding: 50px;
+        background-color: rgba(0, 0, 0, 0);
+        transition: transform .2s; /* Animation */
+        width: 100%;
+        max-width: 270px;
+        height: auto;
+        margin: auto;
+      }
+      .yyy:hover {
+        transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        background-color: none;
+        margin: 0%;
+      }
+      .sss1{
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+            }
+      hr{
+        color: red;
+        border-color: red;
+        box-shadow: 2px 4px 8px #FF0000;
+        text-shadow: 2px 3px 8px #FF0000;
+        width: 100%;
+        margin: auto;
+        margin-top: 20px;
+            }
+      h5{
+        color: red;
+        text-shadow: 2px 2px 4px rgb(255, 0, 0);
+            }
+      table{
+        border-radius: 16px;
+      }
+      
+      </style>
+    </head>
+    <body>
+      <div style="width: 100%; max-width: 100%;">
+        <nav style="margin: 0%; width: 100%;">
+            <table style="width: 99%; margin: 0%;" cellpadding="15px">
+                <tr> 
+                  <td><a href="Home.html"><img src="Logo.jpeg" class="sss1"></a></td>
+                    
+                  <td><button type="button" class="buttons"><a class="current" style="text-decoration:none" href="Home.html">Home</a></button></td>
+                    
+                  <td><button type="button" class="button"><a style="text-decoration:none" href="Laptop.html">Laptops</a></button></td>
+                    
+                  <td><button type="button" class="button"><a style="text-decoration:none" href="desktop.html">Desktop</a></button></td>
+                    
+                  <td><button type="button" class="button"><a style="text-decoration:none" href="Accessories.html">Accessories</a></button></td>
+                   
+                  <td><button type="button" class="button"><a style="text-decoration:none" href="Product.html">About Us</a></button></td>
+                    
+                  <td><button type="button" class="button"><a style="text-decoration:none" href="aboutus.html">Contact Us</a></button></td>
+                </tr>
+            </table>
+        </nav>
+      </div>
+
+        <p align="center" class="JAC">Best Selling Products</p>  
+        
+        <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="banner for asscories/Mosue.png" style="width:100%">
+      <div class="text"></div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="banner for asscories/Monitor.png" style="width:100%">
+      <div class="text"></div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="Banner/Banner1.png" style="width:100%">
+      <div class="text"></div>
+    </div>
+
+    <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+<script>
+ var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  
+}
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 7000); // Change image every 7 seconds
+}
+</script>
+</br>
+    <p class="JAC">What We Have</p>
+  <div width="100%">
+   <table align="center" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;text-align: center; max-width: 1920px;text-align: center; width: 100%; ">
+     
+     <!---pictures for Explore our products -->
+     <tr>
+    <td>
+        <a class="wwhzoom" href="desktop.html"><img src="Home/Untitled-1.png" class="yyy"><!--Desktop--></a>
+     </td>
+     <td>
+       <a class="wwhzoom" href="Laptop.html"><img src="HOME/Untitled-2.png"class="yyy"><!--Laptop--></a>
+    </td>
+    <td>
+       <a class="wwhzoom" href="Accessories.html"><img src="HOME/Untitled-3.png" class="yyy"><!--Monitor--></a>
+    </td>
+    <td>
+      <a class="wwhzoom" href="Accessories.html"><img src="HOME/Untitled-4.png" class="yyy"><!--Mouse--></a>
+    </td>
+    <td>
+      <a class="wwhzoom" href="accessories.html"><img src="HOME/Untitled-5.png" class="yyy"><!--Keyboard--></a>
+    </td>
+    <td>
+      <a class="wwhzoom" href="Accessories.html"><img src="HOME/mousepad.png" class="yyy"><!--Mousepad--></a>
+     </tr>
+     </table>
+     <a href="Laptop.html"><img src="HOME/bck.png" width="100%" height="auto"></a>
+     <span>
+      <p class="JAC">Monthly Promotions</p>
+      <table border="0px" style="float: left; width: 100%;max-width: 600px; margin:10px ; height: 1000px;" align="center">
+        <tr style="color: white;">
+          <td align="center" style="background-color: rgb(59, 59, 59); border-bottom: none;" >
+            <p style="font-size: larger;">Great White Shark</p>
+            <p style="font-size: smaller; font-weight: unset;">Advance Performance Series partnership with NZXT</p>
+            <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><br>This product is popular among gamers due to its</br>
+             specs <b style="color:pink; font-weight: bold"> (able to run 99% of all games) </b> and its <b style="color:pink; font-weight: bold">uncomparable </b> price</br></p>
+          </td>
+        </tr>
+        <tr>
+          <td align="center" class="zoom"><img src="photos for desktop/HypergateElite.png" width="350px" height="250px" style="width:50%; max-width: 300px;"></Td>
+        </tr>
+
+        <tr>
+          <td align="left">
+            <p style="color: white;">From SGD <b style="color: red; font-weight: bold; font-size: larger; ">1409</b> <s style="font-size: smaller;">2818</s><b style="font-weight: unset; font-size: small; font-style: italic;"> 50% off</b> </p>
+          </td>
+        </tr>
+
+        <tr style="margin: 20px; float: left">
+          <td >
+            <a href="feature page for desktop/dogshark.html" class="select">Select</a>
+          </td>
+        </tr>
+
+        <tr style="text-align: left; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;background-color: #595959;">
+          <td class="gwsd">AMD Ryzen 9 5950X or Intel Core I9 11900K
+            </br>up to 64 GB High Speed Ram
+            </br>up to RTX 3090
+            </br>2 TB M.2 NVME SSD
+            </br>WIFI 6 + Bluetooth 5.0 enabled
+            </br> AAA Gaming | Heavy video and Photo editing
+          </td>
+        </tr>
+      </table>
+
+      <table border="0px" style="float: left; max-width: 600px ;width: 100%; height: 1000px; margin:10px">
+        <tr style="color: white;">
+          <td align="center" style="background-color: rgb(59, 59, 59); border-bottom: none; " >
+            <p style="font-size: larger;">Dog Shark</p>
+            <p style="font-size: smaller; font-weight: unset;">Compact Office Machine</p>
+            <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><br>Many companies (e.g Fuji Xerox, DBS Bank) likes</br> 
+                                                    to use this model due to how <b style="color:pink; font-weight: bold">SMOOTH</b> and <b style="color: pink; font-weight: bold">CHEAP</b> it is for an office PC
+          </td>
+        </tr>
+        
+        <tr>
+          <td align="center" class="zoom"><img src="photos for desktop/Vision Mini-min.png"  width="300px" height="250px"></Td>
+        </tr> 
+
+        <tr>
+          <td align="left">
+            <p style="color: white;">From SGD <b style="color: red; font-weight: bold; font-size: larger; ">769</b> <s style="font-size: smaller;">999</s><b style="font-weight: unset; font-size: small; font-style: italic;"> 23% off</b> </p>
+          </td>
+        </tr>
+
+        <tr style="margin: 20px; float: left">
+          <td>
+            <a href="feature page for desktop/dogshark.html" class="select">Select</a>
+          </td>
+
+        </tr>
+        <tr style="text-align: left; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;background-color: #595959;">
+          <td class="gwsd">AMD Ryzen 5 5600 or Intel Core I5 11600
+            </br>up to 32 GB Ram 
+            </br>up to GTX 1650
+            </br>500 GB NVME SSD
+            </br>WIFI 6 + Bluetooth 5.0 enabled
+            </br> Office Work | Basic Photo and Video Editing </br>
+          </td>
+        </tr>
+      </table>
+
+      <table border="0px" margin=5px style="float: left; max-width: 600px;width: 100%; height: 1000px; margin:10px;" align="center" >
+        <tr style="color: white;" >
+          <td align="center" style="background-color: rgb(59, 59, 59); border-bottom: none; max-height: 200px;" >
+            <p style="font-size: larger;">LogicWhite</p>
+            <p style="font-size: smaller; font-weight: unset;">Gaming Mouse</p>
+            <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><br>
+              Many gamers go for this mouse due to </br>its <b style="color:pink; font-weight: bold">WEIGHT(90G) </b> and <b style="color:pink; font-weight: bold"> COMFORTABILITY</b> when gaming 
+            </td>
+        </tr>
+
+        <tr>
+          <td align="center" class="zoom"><img src="banner for asscories/NEWEST/logticwhite.png" width="240px" height="250px" style="width: 50%; max-width: 240px;min-width: 240px; height: auto;"></td>
+        </tr>
+
+        <tr>
+          <td align="left">
+            <p style="color: white;">From SGD<b style="color: red; font-weight: bold; font-size: larger; "> 42</b><s style="font-size: smaller;">  60</s><b style="font-weight: unset; font-size: small; font-style: italic;"> 30% off</b></p>
+          </td>
+        </tr>
+
+        <tr style="margin: 20px; float: left">
+          <td>
+            <a href="General Checkout/Dog Shark.html" class="select">Select</a>
+          </td>
+        </tr>
+
+        <tr style="text-align: left; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;background-color: #595959;">
+            <td class="gwsd">6.8 Million Customisable Colours For RGB
+              </br>Premium high quality materials
+              </br>Classic and Simple 6-button layout 
+              </br>8,000 DPI gaming-grade sensor
+              </br>Mechanical and Tensioned with durable metal springs
+              </br>Precise feedback delivers a great precision feel 
+          </td>
+        </tr>
+      </table>
+  </div>
+  <div>
+  <div>
+  <br/>
+  <p>this text shall not be seen</p>
+  <hr>
+  <br/>
+  <div style="clear: left; color: white;">
+    <table style="width: 100%; font-size: large; text-align: center; vertical-align: top;">
+      <caption><h1 class="JAC">Our Promise - Why Choose Us?</h1></caption>
+      <tr style="vertical-align: top;">
+        <td style="max-width: 635px ; width:33%">
+          <h5>SUPERIOR WARRANTY</h5>
+            <br/>
+          <img src="icons/doctor.png">
+          <p style="font-style: italic;">
+          Our systems are covered by beforeshock's highly renowned beforesales support team. 
+          For desktop pcs, cover all parts with a 1 for 1 exchange policy. Unlike many other 
+          local system builders, our warranty has a proven track record of excellence. </p>
+        </td>
+
+        <td  style="max-width: 635px ; width:33%">
+          <h5>PERFORMANCE OPTIMISED</h5>
+            </br>
+          <img src="icons/time.png">
+          <p style="font-style: italic;">
+          BEFORESHOCK PC selects and uses only the finest components.
+          We fine tune systems to get the 
+          ideal performance in the most demanding scenarios,and 
+          you know what you are getting when
+          you build a boutique system with us.</p>  
+        </td>
+
+        <td style="max-width: 635px ; width:33%">
+          <h5>QUALITY CRAFTMANSHIP</h5>
+            <br/>
+          <img src="icons/tools.png">
+          <p style="font-family: Font; font-style: italic;">
+          Every system is hand crafted by our passionate team of <br>system builders, 
+          to a level of detail and perfection that defines a <br>Boutique PC. </p>
+        </td>
+      </tr>
+    </table>
+    <br/>
+  </div>
+  </div>
+  </div>
+  </div>
+  
+      <!--footer part-->
+      <footer style="clear: left;">
+        <div class="product" align="center">
+        <table class="footer.list" cellspacing="5" cellpadding="15">
+            <tr style="text-align: left;">
+                <th >Products</th>
+                <th>Company</th>
+                <th>Need Help?</th>
+                <th></th>
+                <th>Contact Us</th>
+            </tr>
+            <tr>
+                <td class="fuwh"><a class="footerhyper" href="Laptop.html">Laptops</a></td>
+                <td class="fuwh"><a class="footerhyper" href="Product.html">About</a></td>
+                <td><a class="footerhyper" href="aboutus.html">Support</a></td>
+                <td></td>
+                <td class="fonting">Contact us : +65 9126 2789</td>
+            </tr>
+            <tr>
+                <td><a class="footerhyper" href="desktop.html">Desktops</a></td>
+                <td><a class="footerhyper" href="aboutus.html">Contact</a></td>
+                <td><a class="footerhyper" href="aboutus.html">Warranty Info</a></td>
+                <td></td>
+                <td class="fonting">Address : 996 Bendmeer Rd #03-06 S339944</td>
+            </tr>
+            <tr>
+                <td><a class="footerhyper" href="Accessories.html">Accessories</a></td>
+                <td></td>
+                <td><a class="footerhyper" href="aboutus.html">FAQ</a></td>
+                <td></td>
+                <th align="left">Register your email for exclusive news, offers and giveaways! 
+                    <div>
+                        <input type="text"></input><input type="submit"></input>
+                    </div></th>
+            </tr>  
+        </table>
+
+        
+   
+    <div >
+        <a href="https://www.facebook.com/"><img src="icons/fblogo.png" height="40px" placeholder="facebook"></img></a>
+        <a href="https://www.instagram.com/"><img src="icons/iglogo.png" height="40px"></img></a>
+        <a href="https://twitter.com/?lang=en-sg"><img src="icons/twitterlogo.png"  height="40px"></img></a>
+    </div>
+    </div>
+    <div>
+    <p class="footer" style="margin-left: auto;">
+        Beforeshock &#169;2017 
+    </p>
+
+    </div>
+   
+</footer>
+</body>
+</html>
+    
+</html>
